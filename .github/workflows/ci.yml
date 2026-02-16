@@ -1,12 +1,11 @@
-name : Express - CI - API
+name: Express - CI - API
 
 on:
   push:
     branches:
-     - dev
+      - dev
 
 jobs:
-
   build-test:
     runs-on: ubuntu-latest
 
