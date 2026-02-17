@@ -5,6 +5,11 @@ on:
     branches:
       - dev
 
+permissions:
+  contents: read
+  packages: write
+  security-events: write
+
 env:
   IMAGE_NAME: pipeline-project
 
