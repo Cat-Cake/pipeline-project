@@ -6,7 +6,7 @@ on:
       - dev
 
 env:
-  IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/pipeline-project
+  IMAGE_NAME: pipeline-project
 
 jobs:
   build-test:
